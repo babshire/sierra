@@ -1,15 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
 
-Mappings:
-  RegionToImageId:
-    us-east-1:
-      ImageId: ami-b70554c8
-    us-east-2:
-      ImageId: ami-8c122be9
-    us-west-1:
-      ImageId: ami-e0ba5c83
-    us-west-2:
-      ImageId: ami-a9d09ed1
 
 Resources:
   #VPC Config
